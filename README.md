@@ -1,7 +1,7 @@
 # sysc2004
 Notes for Carleton University's SYSC2004D - Object Oriented Software Development
 
-##Winter 2020
+## Winter 2020
 
 Uses the IJava Kernel for Jupyter: https://github.com/SpencerPark/IJava
 
