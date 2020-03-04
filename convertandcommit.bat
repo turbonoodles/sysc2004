@@ -1,0 +1,1 @@
+jupyter nbconvert "L14 - Inheritance and Polymorphism.ipynb" --TagRemovePreprocessor.enabled=True --to pdf --output-dir pdf --TagRemovePreprocessor.remove_cell_tags="['nbconvert-hide']"
