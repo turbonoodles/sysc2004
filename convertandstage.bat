@@ -10,7 +10,7 @@ REM Filename of the notebook we are operating on should be the first and only ar
 SET notebook=%1
 ECHO Converting:
 ECHO %notebook%
-pause
+REM pause
 
 :CONVERT
 REM Convert notebook to pdf, ignoring cells tagged "nbconvert-hide"
@@ -27,7 +27,8 @@ goto END
 
 REM Stage all changes and commit
 
-START git stage %notebook% pdf/%notebook%
+START git stage %notebook% 
+START git stage pdf/%notebook%
 REM start git commit
 
 :END
